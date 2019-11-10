@@ -1,0 +1,20 @@
+
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../stylesheets/helpers/variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// 區塊式內容
+@import "../stylesheets/components/header";
+@import "../stylesheets/components/section";
+@import "../stylesheets/components/item-card";
+@import "../stylesheets/components/carts";
+
+// 元件
+@import "../stylesheets/components/form-square";
+@import "../stylesheets/components/process-steps";
+@import "../stylesheets/components/interactive"; // 互動元件
+@import "../stylesheets/components/custom-bs4";  // Bootstrap 4 調整
+
+// 通用類別
+@import "../stylesheets/components/utilities";
